@@ -1,0 +1,74 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    margin-top:12vw;
+    padding: 10px;
+    background: rgba(150, 131, 150, 0.966);
+    border: 1px solid black;
+}
+.btnDivs{
+    display: flex;
+}
+button{
+    border: 1px solid rgb(73, 72, 72);
+    margin: 1px;
+    width: 50px;
+    padding: 10px;
+    text-align: center;
+}
+.auxbtn{
+    color: white;
+}
+button:hover{
+    background: rgb(168, 161, 161);
+}
+#clearbtn{
+    background: rgb(32, 32, 180);
+    width: 102px;
+    min-width: fit-content;
+}
+#clearbtn:hover{
+    background: rgb(17, 17, 114); 
+}
+#deletebtn{
+    background: rgb(179, 26, 26);
+    width: 102px;
+    min-width: fit-content;
+}
+#deletebtn:hover{
+    background: rgb(145, 41, 41);
+}
+#eqlbtn{
+    color: white;
+    background: green;
+}
+#eqlbtn:hover{
+    background: rgb(17, 94, 17);
+}
+.mult{
+    background: rgb(189, 189, 48);
+}
+#lastOperationScreen{
+    text-align: right;
+    font-weight: normal;
+    font-size: larger;
+    outline: none;
+    width: 205px;
+    background: white;
+    height: 20px;
+    margin-top: 8px;
+}
+#currentOperationScreen{
+    text-align: right;
+    font-weight: normal;
+    font-size: larger;
+    outline: none;
+    border: none;
+    padding: 5px 0px 5px 0px;
+    width: 205px;
+    height: 20px;
+    margin-bottom: 20px;
+}
