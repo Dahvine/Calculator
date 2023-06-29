@@ -57,11 +57,9 @@ operatorButtons.forEach((button) => {
 
 // Event listener for decimal button
 decimalButton.addEventListener("click", () => {
-  if (!currentOperation.includes(".")) {
     currentOperation += ".";
     updateDisplay();
-  }
-});
+  });
 
 // Event listener for equals button
 equalsButton.addEventListener("click", calculate);
